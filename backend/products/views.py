@@ -24,3 +24,10 @@ class ProductViewSet(viewsets.ModelViewSet):
     serializer_class = ProductSerializer
     permission_classes = [IsAdminOrReadOnly]
     parser_classes = [MultiPartParser, FormParser]  # 👈 ajouté pour accepter FormData
+
+
+# products/views.py
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Bienvenue sur l'API Backend Soxna !")
