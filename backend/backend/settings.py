@@ -60,13 +60,16 @@ MIDDLEWARE = [
 ROOT_URLCONF = "backend.urls"
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",
+    "https://frontend-soxna-mai.vercel.app",
     
 ]
 
 
-ALLOWED_HOSTS = ["https://frontend-soxna-mai.vercel.app",]  
-
+ALLOWED_HOSTS = [
+    "backend-soxna-mai.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 CORS_ALLOW_ALL_ORIGINS = True  # pour dev; restreindre en prod
 
