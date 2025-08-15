@@ -60,7 +60,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = "backend.urls"
 
 CORS_ALLOWED_ORIGINS = [
-    "https://frontend-soxna-mai.vercel.app",
+    "https://soxna-mai-kabir.vercel.app",
     
 ]
 
