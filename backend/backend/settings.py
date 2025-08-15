@@ -65,7 +65,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 
-ALLOWED_HOSTS = ['*']  # temporaire pour test, ensuite mets ton domaine Render
+ALLOWED_HOSTS = ["https://frontend-soxna-mai.vercel.app",]  
 
 
 CORS_ALLOW_ALL_ORIGINS = True  # pour dev; restreindre en prod
