@@ -71,7 +71,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True  # pour dev; restreindre en prod
+# CORS_ALLOW_ALL_ORIGINS = True  # pour dev; restreindre en prod
 
 REST_FRAMEWORK = {
   'DEFAULT_AUTHENTICATION_CLASSES': (
