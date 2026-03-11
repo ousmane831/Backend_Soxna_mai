@@ -59,15 +59,16 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "backend.urls"
 
-CORS_ALLOWED_ORIGINS = [
-    "https://soxna-mai-kabir.vercel.app",
-    "https://soxna-mai-kabir.netlify.app",
-    "https://smkabir.netlify.app",
-    "http://localhost:8080",
-    "http://localhost:8081",
-    "http://127.0.0.1:8080",
-    "http://127.0.0.1:8081",
-]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://smkabir.netlify.app",
+#     "http://localhost:8080",
+#     "http://localhost:8081",
+#     "http://127.0.0.1:8080",
+#     "http://127.0.0.1:8081",
+# ]
+
+# Pour le développement et production temporaire
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 ALLOWED_HOSTS = [
